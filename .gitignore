@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Data(Raw & Intermediate)
+data/*.xlsx
+data/*.csv
+data/*.db
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/

@@ -18,4 +18,4 @@ RUN pip install --upgrade pip && \
 COPY . .
 
 # Точка входа (exec-форма), путь относительно WORKDIR
-CMD ["python", "src/etl_cleaner.py"]
+CMD ["python", "week_01_data_eng/src/etl_cleaner.py"]
